@@ -1,0 +1,2544 @@
+BLASTP 2.5.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: prot
+           63,914 sequences; 5,138,043 total letters
+
+
+
+Query= MazF-Sa the toxin component of mazEF-Sa TA system
+
+Length=120
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [as...  240     2e-84
+  prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147]...  240     2e-84
+  prot012809 [organism: Staphylococcus warneri] [strain: VCU121] ...  217     3e-75
+  prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [as...  49.7    4e-09
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  42.4    2e-06
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  37.4    1e-04
+  prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [as...  29.6    0.11 
+  prot009140 [organism: Staphylococcus aureus] [strain: UCIM6147]...  26.6    2.0  
+  prot014317 [organism: Staphylococcus aureus] [strain: VRS7] [as...  26.6    2.0  
+  prot016744 [organism: Staphylococcus aureus] [strain: VRS7] [as...  24.6    8.5  
+  prot010713 [organism: Staphylococcus aureus] [strain: UCIM6147]...  24.6    8.5  
+
+
+> prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 240 bits (613),  Expect = 2e-84, Method: Compositional matrix adjust.
+ Identities = 120/120 (100%), Positives = 120/120 (100%), Gaps = 0/120 (0%)
+
+Query  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+            MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  61   IEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGLNAVAHQKN  120
+            IEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGLNAVAHQKN
+Sbjct  61   IEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGLNAVAHQKN  120
+
+
+> prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=120
+
+ Score = 240 bits (613),  Expect = 2e-84, Method: Compositional matrix adjust.
+ Identities = 120/120 (100%), Positives = 120/120 (100%), Gaps = 0/120 (0%)
+
+Query  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+            MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  61   IEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGLNAVAHQKN  120
+            IEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGLNAVAHQKN
+Sbjct  61   IEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGLNAVAHQKN  120
+
+
+> prot012809 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=120
+
+ Score = 217 bits (553),  Expect = 3e-75, Method: Compositional matrix adjust.
+ Identities = 110/119 (92%), Positives = 112/119 (94%), Gaps = 0/119 (0%)
+
+Query  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+            MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  61   IEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGLNAVAHQK  119
+            IEKKKYKLDKDSVILLEQIRTLDK RLKEKLTYLSD+KMKEVD AL ISLGL+   H K
+Sbjct  61   IEKKKYKLDKDSVILLEQIRTLDKNRLKEKLTYLSDNKMKEVDYALDISLGLHNFNHSK  119
+
+
+> prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 49.7 bits (117),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 32/105 (30%), Positives = 52/105 (50%), Gaps = 5/105 (5%)
+
+Query  3    RRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIE  62
+             +GD+ L + +P  G EQ G RP +++ +D    YS  VIVA I+    K   P +V I 
+Sbjct  6    HQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISS--TKRNYPLYVSIN  63
+
+Query  63   KKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALM  107
+               Y +     +LL+Q+ T+D +    +  +L     K +D  L+
+Sbjct  64   -PSYGMKTSGKVLLDQLTTIDYE--ARQCVFLETAHEKLIDELLL  105
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 42.4 bits (98),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 35/113 (31%), Positives = 57/113 (50%), Gaps = 4/113 (4%)
+
+Query  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+            M+   DV   D +PV G+E+G  RP ++I +   NK S    V  IT R ++ + PT V 
+Sbjct  1    MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDE-RYPTDVL  59
+
+Query  61   IEKKKYKLDKDSVILLEQIRTLD-KKRLKEKLTYLSDDKMKEVDNALMISLGL  112
+            ++ K   +  +  I   QI+++D   R    L   + +K+ EV++ L   L L
+Sbjct  60   VKTKNQHI--NGFIDCTQIKSVDIHARPYRYLDISTTEKVIEVNDRLKSLLNL  110
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 37.4 bits (85),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 25/82 (30%), Positives = 43/82 (52%), Gaps = 4/82 (5%)
+
+Query  2   IRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEI  61
+           I++ D+   DL P  G E+  +RP ++I N    + +  V +  IT R  + +  T +E+
+Sbjct  3   IKQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPITNR--EKRFETDIEV  60
+
+Query  62  EKKKYKLDKDSVILLEQIRTLD  83
+           + KK  +    VI   Q+R+LD
+Sbjct  61  KTKKGLI--TGVIDTIQMRSLD  80
+
+
+> prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=113
+
+ Score = 29.6 bits (65),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 17/81 (21%), Positives = 38/81 (47%), Gaps = 5/81 (6%)
+
+Query  3   RRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIE  62
+           ++GD+   D  P  G E    RP +++     N+ +   ++  IT  I    +PT   + 
+Sbjct  10  KKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIK--NMPTRYTLP  67
+
+Query  63  KKKYKLDKDSVILLEQIRTLD  83
+               +++    +++ Q+++LD
+Sbjct  68  D---EMETHGQVVISQLKSLD  85
+
+
+> prot009140 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=420
+
+ Score = 26.6 bits (57),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 32/61 (52%), Gaps = 3/61 (5%)
+
+Query  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGLNAVAHQK  119
+            E E KK+KLDK  +I + Q RTL    + EK     D +  +   AL+ ++  N VA + 
+Sbjct  97   EKEVKKHKLDKAYIIKVNQNRTLQGTIISEKRVSHEDSQKVQ---ALLTAIQTNMVAGEL  153
+
+Query  120  N  120
+            N
+Sbjct  154  N  154
+
+
+> prot014317 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=420
+
+ Score = 26.6 bits (57),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 32/61 (52%), Gaps = 3/61 (5%)
+
+Query  60   EIEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGLNAVAHQK  119
+            E E KK+KLDK  +I + Q RTL    + EK     D +  +   AL+ ++  N VA + 
+Sbjct  97   EKEVKKHKLDKAYIIKVNQNRTLQGTIISEKRVSHEDSQKVQ---ALLTAIQTNMVAGEL  153
+
+Query  120  N  120
+            N
+Sbjct  154  N  154
+
+
+> prot016744 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=211
+
+ Score = 24.6 bits (52),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 21/63 (33%), Positives = 31/63 (49%), Gaps = 12/63 (19%)
+
+Query  46   ITGRINKAKIPTHVEI------EKKKYKL------DKDSVILLEQIRTLDKKRLKEKLTY  93
+            I   +N   IP++V +      +K+K KL      D D +IL E    LDKK + E   +
+Sbjct  98   IYNILNIEAIPSNVLLKNLSDGQKQKLKLLSFLLEDHDLIILDEVTNALDKKTVNEIYEF  157
+
+Query  94   LSD  96
+            L+D
+Sbjct  158  LND  160
+
+
+> prot010713 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=211
+
+ Score = 24.6 bits (52),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 21/63 (33%), Positives = 31/63 (49%), Gaps = 12/63 (19%)
+
+Query  46   ITGRINKAKIPTHVEI------EKKKYKL------DKDSVILLEQIRTLDKKRLKEKLTY  93
+            I   +N   IP++V +      +K+K KL      D D +IL E    LDKK + E   +
+Sbjct  98   IYNILNIEAIPSNVLLKNLSDGQKQKLKLLSFLLEDHDLIILDEVTNALDKKTVNEIYEF  157
+
+Query  94   LSD  96
+            L+D
+Sbjct  158  LND  160
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.134    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 129611601
+
+
+Query= PemK-Sa1 the toxin component of pemIK-Sa1 TA system
+
+Length=112
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  182     1e-61
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  84.0    9e-23
+  prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147]...  52.8    1e-10
+  prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [as...  50.4    2e-09
+  prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [as...  40.8    5e-06
+  prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147]...  40.8    5e-06
+  prot012809 [organism: Staphylococcus warneri] [strain: VCU121] ...  40.4    1e-05
+  prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [as...  40.0    1e-05
+  prot002954 [organism: Staphylococcus warneri] [strain: VCU121] ...  23.5    5.5  
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 182 bits (463),  Expect = 1e-61, Method: Compositional matrix adjust.
+ Identities = 83/110 (75%), Positives = 101/110 (92%), Gaps = 0/110 (0%)
+
+Query  1    MNIKQFDILYIDLNPTRGREKHNVRPCLVINNQMSIDGTNFVWVLPITTRGLRYPTDIQL  60
+            MNIKQFDILYIDL+PT GREK  +RPCLVINNQMSI+GT+FVW+LPIT R  R+ TDI++
+Sbjct  1    MNIKQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPITNREKRFETDIEV  60
+
+Query  61   KTKKGLVSGVIDTVQIRALDLKARQYNYKDELQDNLKNDILKAIKTYLKP  110
+            KTKKGL++GVIDT+Q+R+LDL AR+YNYKDELQD LKND+L+A++TYLKP
+Sbjct  61   KTKKGLITGVIDTIQMRSLDLNARKYNYKDELQDRLKNDVLQAVQTYLKP  110
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 84.0 bits (206),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 44/102 (43%), Positives = 62/102 (61%), Gaps = 9/102 (9%)
+
+Query  6    FDILYIDLNPTRGREKHNVRPCLVINNQMSIDGTNFVWVLPITTR-GLRYPTDIQLKTKK  64
+            +D++ +D NP  G EK N RPCLVI++      + F WV+PIT R   RYPTD+ +KTK 
+Sbjct  5    YDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLVKTKN  64
+
+Query  65   GLVSGVIDTVQIRALDLKARQYNYKD--------ELQDNLKN  98
+              ++G ID  QI+++D+ AR Y Y D        E+ D LK+
+Sbjct  65   QHINGFIDCTQIKSVDIHARPYRYLDISTTEKVIEVNDRLKS  106
+
+
+> prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=105
+
+ Score = 52.8 bits (125),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 31/107 (29%), Positives = 60/107 (56%), Gaps = 5/107 (5%)
+
+Query  3    IKQFDILYIDLNPTRGREKHNVRPCLVINNQMSIDGTNFVWVLPITTRGLRYPTDIQLKT  62
+            +KQFD++ ++ NP   + +  V    V++N      + ++W  P+  R   Y TDI+L T
+Sbjct  2    VKQFDVIKVN-NPDEAKSELYV----VVSNDYVNSNSPYIWTYPVFQRDRIYLTDIELVT  56
+
+Query  63   KKGLVSGVIDTVQIRALDLKARQYNYKDELQDNLKNDILKAIKTYLK  109
+            K+    GVID   I  +DL  ++    D+LQ  ++N ++++I+ +++
+Sbjct  57   KRYNYYGVIDCGIIGHIDLTKKEIKVLDKLQPRIQNKLMESIQAHIE  103
+
+
+> prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 50.4 bits (119),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/106 (27%), Positives = 56/106 (53%), Gaps = 1/106 (1%)
+
+Query  5    QFDILYIDLNPTRGREKHNVRPCLVINNQMSIDGTNFVWVLPITTRGLRYPTDIQLKTKK  64
+            Q DIL ++  P  G E+   RP +V+++ +  D +N V V PI++    YP  + +    
+Sbjct  7    QGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNYPLYVSINPSY  66
+
+Query  65   GL-VSGVIDTVQIRALDLKARQYNYKDELQDNLKNDILKAIKTYLK  109
+            G+  SG +   Q+  +D +ARQ  + +   + L +++L  ++T  +
+Sbjct  67   GMKTSGKVLLDQLTTIDYEARQCVFLETAHEKLIDELLLKVRTVFQ  112
+
+
+> prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 40.8 bits (94),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 29/84 (35%), Positives = 44/84 (52%), Gaps = 4/84 (5%)
+
+Query  3   IKQFDILYIDLNPTRGREKHNVRPCLVINNQMSIDGTNFVWVLPITTR--GLRYPTDIQL  60
+           I++ D+   DL+P +G E+  VRP ++I N      +  V V  IT R    + PT +++
+Sbjct  2   IRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEI  61
+
+Query  61  KTKKGLV--SGVIDTVQIRALDLK  82
+           + KK  +    VI   QIR LD K
+Sbjct  62  EKKKYKLDKDSVILLEQIRTLDKK  85
+
+
+> prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=120
+
+ Score = 40.8 bits (94),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 29/84 (35%), Positives = 44/84 (52%), Gaps = 4/84 (5%)
+
+Query  3   IKQFDILYIDLNPTRGREKHNVRPCLVINNQMSIDGTNFVWVLPITTR--GLRYPTDIQL  60
+           I++ D+   DL+P +G E+  VRP ++I N      +  V V  IT R    + PT +++
+Sbjct  2   IRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEI  61
+
+Query  61  KTKKGLV--SGVIDTVQIRALDLK  82
+           + KK  +    VI   QIR LD K
+Sbjct  62  EKKKYKLDKDSVILLEQIRTLDKK  85
+
+
+> prot012809 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=120
+
+ Score = 40.4 bits (93),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 28/82 (34%), Positives = 43/82 (52%), Gaps = 4/82 (5%)
+
+Query  3   IKQFDILYIDLNPTRGREKHNVRPCLVINNQMSIDGTNFVWVLPITTR--GLRYPTDIQL  60
+           I++ D+   DL+P +G E+  VRP ++I N      +  V V  IT R    + PT +++
+Sbjct  2   IRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEI  61
+
+Query  61  KTKKGLV--SGVIDTVQIRALD  80
+           + KK  +    VI   QIR LD
+Sbjct  62  EKKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=113
+
+ Score = 40.0 bits (92),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 26/89 (29%), Positives = 44/89 (49%), Gaps = 1/89 (1%)
+
+Query  4   KQFDILYIDLNPTRGREKHNVRPCLVINNQMSIDGTNFVWVLPITTRGLRYPTDIQLKTK  63
+           K+ DI++ID +P+ G+E    RP LV++       T F  + PIT+     PT   L  +
+Sbjct  10  KKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRYTLPDE  69
+
+Query  64  KGLVSGVIDTVQIRALDLKARQYNYKDEL  92
+                G +   Q+++LD   R+ +  + L
+Sbjct  70  ME-THGQVVISQLKSLDFTERKLSQIEHL  97
+
+
+> prot002954 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=39
+
+ Score = 23.5 bits (49),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  30  INNQMSIDGTNFVWVLP  46
+           +NN +SI    F+++LP
+Sbjct  22  LNNSLSISSHPFIYILP  38
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 126394191
+
+
+Query= PemK-Sa2 the toxin component of pemIK-Sa2 TA system
+
+Length=119
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  47.8    2e-08
+  prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [as...  47.4    2e-08
+  prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [as...  40.4    1e-05
+  prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147]...  40.4    1e-05
+  prot012809 [organism: Staphylococcus warneri] [strain: VCU121] ...  39.7    2e-05
+  prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [as...  33.9    0.003
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  33.1    0.005
+  prot010100 [organism: Staphylococcus aureus] [strain: VRS7] [as...  30.0    0.10 
+  prot021884 [organism: Staphylococcus aureus] [strain: UCIM6147]...  26.9    1.2  
+  prot007824 [organism: Staphylococcus warneri] [strain: VCU121] ...  23.5    5.3  
+  prot002294 [organism: Staphylococcus aureus] [strain: VRS7] [as...  24.6    6.6  
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 47.8 bits (112),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 30/100 (30%), Positives = 46/100 (46%), Gaps = 8/100 (8%)
+
+Query  11   DVFLVDLNPVVGNEMRDAHRCVVITPHEINMV-GMCLTVPITTGGAFTRKVGLAVNISGH  69
+            DV  +D NPV+G E  +   C+VI+  E N V G    +PIT          + V     
+Sbjct  6    DVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLVKTKNQ  65
+
+Query  70   KTTGVALCNQVRALDILERMKQKTAKHIDTLDASTTDEIV  109
+               G   C Q++++DI        A+    LD STT++++
+Sbjct  66   HINGFIDCTQIKSVDI-------HARPYRYLDISTTEKVI  98
+
+
+> prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=113
+
+ Score = 47.4 bits (111),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 30/113 (27%), Positives = 55/113 (49%), Gaps = 6/113 (5%)
+
+Query  3    RSNIPKRGDVFLVDLNPVVGNEMRDAHRCVVITPHEINMVGMCLTV-PIT-TGGAFTRKV  60
+            +  IPK+GD+  +D +P  G E++     +V++ +E N   M   + PIT T      + 
+Sbjct  5    KKYIPKKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRY  64
+
+Query  61   GLAVNISGHKTTGVALCNQVRALDILERMKQKTAKHIDTLDASTTDEIVARVV  113
+             L   +  H   G  + +Q+++LD  ER K    +H+   D +  D+I+  + 
+Sbjct  65   TLPDEMETH---GQVVISQLKSLDFTER-KLSQIEHLPLKDMAKIDQIIEYIF  113
+
+
+> prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 40.4 bits (93),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 41/89 (46%), Gaps = 5/89 (6%)
+
+Query  8   KRGDVFLVDLNPVVGNEMRDAHRCVVITPHEINMVGMCLTVPITTGGAFTRKVGLAVNIS  67
+           +RGDV+L DL+PV G+E       V+I     N     + V   TG     K+   V I 
+Sbjct  3   RRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIE  62
+
+Query  68  GHKTT----GVALCNQVRALDILERMKQK  92
+             K       V L  Q+R LD  +R+K+K
+Sbjct  63  KKKYKLDKDSVILLEQIRTLD-KKRLKEK  90
+
+
+> prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=120
+
+ Score = 40.4 bits (93),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 41/89 (46%), Gaps = 5/89 (6%)
+
+Query  8   KRGDVFLVDLNPVVGNEMRDAHRCVVITPHEINMVGMCLTVPITTGGAFTRKVGLAVNIS  67
+           +RGDV+L DL+PV G+E       V+I     N     + V   TG     K+   V I 
+Sbjct  3   RRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIE  62
+
+Query  68  GHKTT----GVALCNQVRALDILERMKQK  92
+             K       V L  Q+R LD  +R+K+K
+Sbjct  63  KKKYKLDKDSVILLEQIRTLD-KKRLKEK  90
+
+
+> prot012809 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=120
+
+ Score = 39.7 bits (91),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 40/89 (45%), Gaps = 5/89 (6%)
+
+Query  8   KRGDVFLVDLNPVVGNEMRDAHRCVVITPHEINMVGMCLTVPITTGGAFTRKVGLAVNIS  67
+           +RGDV+L DL+PV G+E       V+I     N     + V   TG     K+   V I 
+Sbjct  3   RRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIE  62
+
+Query  68  GHKTT----GVALCNQVRALDILERMKQK  92
+             K       V L  Q+R LD   R+K+K
+Sbjct  63  KKKYKLDKDSVILLEQIRTLD-KNRLKEK  90
+
+
+> prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 33.9 bits (76),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 28/112 (25%), Positives = 54/112 (48%), Gaps = 13/112 (12%)
+
+Query  6    IPKRGDVFLVDLNPVVGNEMRDAHRCVVITPHEI--NMVGMCLTVPITTGGAFTRKVGLA  63
+            +P +GD+ L++  P  G+E +   R  ++  H+I  +   + +  PI++     R   L 
+Sbjct  4    VPHQGDILLLNTAPRSGHE-QTGKRPYIVLSHDIIADYSNVVIVAPISST---KRNYPLY  59
+
+Query  64   VNIS---GHKTTGVALCNQVRALDILERMKQKTAKHIDTLDASTTDEIVARV  112
+            V+I+   G KT+G  L +Q+  +D   R        ++T      DE++ +V
+Sbjct  60   VSINPSYGMKTSGKVLLDQLTTIDYEARQ----CVFLETAHEKLIDELLLKV  107
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 33.1 bits (74),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 27/112 (24%), Positives = 47/112 (42%), Gaps = 6/112 (5%)
+
+Query  8    KRGDVFLVDLNPVVGNEMRDAHRCVVITPH-EINMVGMCLTVPITTGGAFTRKVGLAVNI  66
+            K+ D+  +DL+P +G E +    C+VI     I        +PIT       +  + V  
+Sbjct  4    KQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPITNREK-RFETDIEVKT  62
+
+Query  67   SGHKTTGVALCNQVRALDILERMKQKTAKHIDTLDASTTDEIVARVVSMIDP  118
+                 TGV    Q+R+LD+  R       + D L     ++++  V + + P
+Sbjct  63   KKGLITGVIDTIQMRSLDLNAR----KYNYKDELQDRLKNDVLQAVQTYLKP  110
+
+
+> prot010100 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=234
+
+ Score = 30.0 bits (66),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 28/100 (28%), Positives = 45/100 (45%), Gaps = 6/100 (6%)
+
+Query  9    RGDVFLVDLNPVVGNEMRDAHRCVVITPHEINMVGMCLTVPITTGGAFTRKVGLAVNISG  68
+            RG V  V L   +G+E    H CV++   +         VP+++ G    K  L +N S 
+Sbjct  64   RGTVVYVKLGSNIGSEFSGNHFCVILDNKDNKGKETVTIVPLSSKG---NKNYLKLNESV  120
+
+Query  69   HKTTGVALCNQVRALDILERMKQKTAKHID-TLDASTTDE  107
+               T   L  Q+  +DI  +++  T K+ D  +  ST D+
+Sbjct  121  LNLTATDLKKQI--IDISSKVQALTQKYRDIDIKLSTEDK  158
+
+
+> prot021884 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=234
+
+ Score = 26.9 bits (58),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 23/88 (26%), Positives = 38/88 (43%), Gaps = 5/88 (6%)
+
+Query  9    RGDVFLVDLNPVVGNEMRDAHRCVVITPHEINMVGMCLTVPITTGGAFTRKVGLAVNISG  68
+            RG V  V L   +G+E    H CV++   +         VP+++ G    K  L +N S 
+Sbjct  64   RGTVVYVKLGSNIGSEFSGNHFCVILDNKDNKGKETVTIVPLSSKG---NKNYLKLNESV  120
+
+Query  69   HKTTGVALCNQVRALDILERMKQKTAKH  96
+               T   L  Q+  +DI  +++    K+
+Sbjct  121  LNLTATDLKKQI--IDISSKVQALAQKY  146
+
+
+> prot007824 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=34
+
+ Score = 23.5 bits (49),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  14  LVDLNPVVGNEMRDAHRCVVITPHEIN  40
+           L+DLNP + N +   +R V  + H IN
+Sbjct  6   LIDLNPTLRNHVDFVNRLVKESYHHIN  32
+
+
+> prot002294 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=202
+
+ Score = 24.6 bits (52),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  95   KHIDTLDASTTDEIVARVVSM  115
+            +HID +     DEIVA+ V M
+Sbjct  89   EHIDKMPQRNLDEIVAKYVEM  109
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 127733172
+
+
+Query= PemK-Sa3 the toxin component of pemIK-Sa3 TA system
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [as...  61.2    8e-14
+  prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [as...  47.8    1e-08
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  45.8    6e-08
+  prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [as...  45.4    1e-07
+  prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147]...  45.4    1e-07
+  prot012809 [organism: Staphylococcus warneri] [strain: VCU121] ...  45.4    1e-07
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  44.3    2e-07
+  prot013928 [organism: Staphylococcus warneri] [strain: VCU121] ...  23.9    3.7  
+
+
+> prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 61.2 bits (147),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 34/109 (31%), Positives = 61/109 (56%), Gaps = 4/109 (4%)
+
+Query  2    ERGEIWLVSLDPTAGHEQQGTRPVLIVTPAAFNRVTRLPVVVPVTSGGNFARTAGFAVSL  61
+             +G+I L++  P +GHEQ G RP ++++       + + +V P++S     R     VS+
+Sbjct  6    HQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISST---KRNYPLYVSI  62
+
+Query  62   D-GVGIRTTGVVRCDQPRTIDMKARGGKRLERVPETIMNEVLGRLSTIL  109
+            +   G++T+G V  DQ  TID +AR    LE   E +++E+L ++ T+ 
+Sbjct  63   NPSYGMKTSGKVLLDQLTTIDYEARQCVFLETAHEKLIDELLLKVRTVF  111
+
+
+> prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=113
+
+ Score = 47.8 bits (112),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 30/101 (30%), Positives = 49/101 (49%), Gaps = 6/101 (6%)
+
+Query  2    ERGEIWLVSLDPTAGHEQQGTRPVLIVTPAAFNRVTRLPVVVPVTSG-GNFARTAGFAVS  60
+            ++G+I  +  DP+AG E Q  RP L+V+   FNR T   V+ P+TS   N          
+Sbjct  10   KKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRYTLPDE  69
+
+Query  61   LDGVGIRTTGVVRCDQPRTIDMKARGGKRLERVPETIMNEV  101
+            ++     T G V   Q +++D   R   ++E +P   M ++
+Sbjct  70   ME-----THGQVVISQLKSLDFTERKLSQIEHLPLKDMAKI  105
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 45.8 bits (107),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 29/109 (27%), Positives = 53/109 (49%), Gaps = 3/109 (3%)
+
+Query  1    MERGEIWLVSLDPTAGHEQQGTRPVLIVTPAAFNRVTRLPVVVPVTSGGNFARTAGFAVS  60
+            +++ +I  + LDPT G E+Q  RP L++        T    ++P+T+      T     +
+Sbjct  3    IKQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPITNREKRFETDIEVKT  62
+
+Query  61   LDGVGIRTTGVVRCDQPRTIDMKARGGKRLERVPETIMNEVLGRLSTIL  109
+              G+    TGV+   Q R++D+ AR     + + + + N+VL  + T L
+Sbjct  63   KKGL---ITGVIDTIQMRSLDLNARKYNYKDELQDRLKNDVLQAVQTYL  108
+
+
+> prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 45.4 bits (106),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 29/100 (29%), Positives = 48/100 (48%), Gaps = 2/100 (2%)
+
+Query  3    RGEIWLVSLDPTAGHEQQGTRPVLIVTPAAFNRVTRLPVVVPVTSGGNFART-AGFAVSL  61
+            RG+++L  L P  G EQ G RPV+I+     N+ +   +V  +T   N A+      +  
+Sbjct  4    RGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIEK  63
+
+Query  62   DGVGIRTTGVVRCDQPRTIDMKARGGKRLERVPETIMNEV  101
+                +    V+  +Q RT+D K R  ++L  + +  M EV
+Sbjct  64   KKYKLDKDSVILLEQIRTLD-KKRLKEKLTYLSDDKMKEV  102
+
+
+> prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=120
+
+ Score = 45.4 bits (106),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 29/100 (29%), Positives = 48/100 (48%), Gaps = 2/100 (2%)
+
+Query  3    RGEIWLVSLDPTAGHEQQGTRPVLIVTPAAFNRVTRLPVVVPVTSGGNFART-AGFAVSL  61
+            RG+++L  L P  G EQ G RPV+I+     N+ +   +V  +T   N A+      +  
+Sbjct  4    RGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIEK  63
+
+Query  62   DGVGIRTTGVVRCDQPRTIDMKARGGKRLERVPETIMNEV  101
+                +    V+  +Q RT+D K R  ++L  + +  M EV
+Sbjct  64   KKYKLDKDSVILLEQIRTLD-KKRLKEKLTYLSDDKMKEV  102
+
+
+> prot012809 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=120
+
+ Score = 45.4 bits (106),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 29/102 (28%), Positives = 49/102 (48%), Gaps = 2/102 (2%)
+
+Query  1    MERGEIWLVSLDPTAGHEQQGTRPVLIVTPAAFNRVTRLPVVVPVTSGGNFART-AGFAV  59
+            + RG+++L  L P  G EQ G RPV+I+     N+ +   +V  +T   N A+      +
+Sbjct  2    IRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEI  61
+
+Query  60   SLDGVGIRTTGVVRCDQPRTIDMKARGGKRLERVPETIMNEV  101
+                  +    V+  +Q RT+D K R  ++L  + +  M EV
+Sbjct  62   EKKKYKLDKDSVILLEQIRTLD-KNRLKEKLTYLSDNKMKEV  102
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 44.3 bits (103),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 26/102 (25%), Positives = 47/102 (46%), Gaps = 2/102 (2%)
+
+Query  9    VSLDPTAGHEQQGTRPVLIVTPAAFNRVTRLPVVVPVTSGGNFARTAGFAVSLDGVGIRT  68
+            +  +P  G E+   RP L+++   FN+V+    V+P+T   +        V      I  
+Sbjct  10   LDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLVKTKNQHI--  67
+
+Query  69   TGVVRCDQPRTIDMKARGGKRLERVPETIMNEVLGRLSTILT  110
+             G + C Q +++D+ AR  + L+      + EV  RL ++L 
+Sbjct  68   NGFIDCTQIKSVDIHARPYRYLDISTTEKVIEVNDRLKSLLN  109
+
+
+> prot013928 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=51
+
+ Score = 23.9 bits (50),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 16/31 (52%), Gaps = 0/31 (0%)
+
+Query  21  GTRPVLIVTPAAFNRVTRLPVVVPVTSGGNF  51
+            T   +++ P AFN  T L   + ++S  NF
+Sbjct  15  NTNVFILLAPLAFNDSTALKSKLSISSANNF  45
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 128350602
+
+
+Query= PemK-Sa4 the toxin component of pemIK-Sa4 TA system
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [as...  234     4e-82
+  prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [as...  51.2    6e-10
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  47.4    2e-08
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  45.1    1e-07
+  prot012809 [organism: Staphylococcus warneri] [strain: VCU121] ...  30.0    0.069
+  prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [as...  29.6    0.10 
+  prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147]...  29.6    0.10 
+  prot005758 [organism: Staphylococcus aureus] [strain: VRS7] [as...  28.9    0.24 
+  prot007522 [organism: Staphylococcus aureus] [strain: UCIM6147]...  28.9    0.24 
+  prot014364 [organism: Staphylococcus aureus] [strain: VRS7] [as...  26.9    1.3  
+  prot009189 [organism: Staphylococcus aureus] [strain: UCIM6147]...  26.9    1.3  
+  prot007264 [organism: Staphylococcus aureus] [strain: UCIM6147]...  24.3    2.1  
+  prot008879 [organism: Staphylococcus warneri] [strain: VCU121] ...  25.8    2.8  
+  prot005117 [organism: Staphylococcus aureus] [strain: VRS7] [as...  24.3    3.5  
+  prot013193 [organism: Staphylococcus aureus] [strain: UCIM6147]...  24.3    3.5  
+  prot007790 [organism: Staphylococcus warneri] [strain: VCU121] ...  24.6    6.5  
+  prot018668 [organism: Staphylococcus aureus] [strain: VRS7] [as...  23.9    6.8  
+  prot018528 [organism: Staphylococcus aureus] [strain: UCIM6147]...  23.9    6.8  
+
+
+> prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=113
+
+ Score = 234 bits (596),  Expect = 4e-82, Method: Compositional matrix adjust.
+ Identities = 113/113 (100%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MSDEKKYIPKKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNM  60
+            MSDEKKYIPKKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNM
+Sbjct  1    MSDEKKYIPKKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNM  60
+
+Query  61   PTRYTLPDEMETHGQVVISQLKSLDFTERKLSQIEHLPLKDMAKIDQIIEYIF  113
+            PTRYTLPDEMETHGQVVISQLKSLDFTERKLSQIEHLPLKDMAKIDQIIEYIF
+Sbjct  61   PTRYTLPDEMETHGQVVISQLKSLDFTERKLSQIEHLPLKDMAKIDQIIEYIF  113
+
+
+> prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 51.2 bits (121),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 26/90 (29%), Positives = 51/90 (57%), Gaps = 2/90 (2%)
+
+Query  8   IPKKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRYTLP  67
+           +P +GDI+ ++  P +G E   +RP +V+S       +   ++ PI+ST +N P   ++ 
+Sbjct  4   VPHQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNYPLYVSIN  63
+
+Query  68  DE--METHGQVVISQLKSLDFTERKLSQIE  95
+               M+T G+V++ QL ++D+  R+   +E
+Sbjct  64  PSYGMKTSGKVLLDQLTTIDYEARQCVFLE  93
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 47.4 bits (111),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 33/93 (35%), Positives = 48/93 (52%), Gaps = 9/93 (10%)
+
+Query  10  KKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRYTLPDE  69
+           K+ DI++ID DP+ G+E QK RP LV++       T F  I PIT    N   R+    E
+Sbjct  4   KQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPIT----NREKRFETDIE  59
+
+Query  70  METH-----GQVVISQLKSLDFTERKLSQIEHL  97
+           ++T      G +   Q++SLD   RK +  + L
+Sbjct  60  VKTKKGLITGVIDTIQMRSLDLNARKYNYKDEL  92
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 45.1 bits (105),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 29/82 (35%), Positives = 44/82 (54%), Gaps = 8/82 (10%)
+
+Query  13  DIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRYTLPDEMET  72
+           D++ +DF+P  G E    RP LV+S  EFN+ + FA + PIT   K    RY     ++T
+Sbjct  6   DVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPIT---KRYDERYPTDVLVKT  62
+
+Query  73  -----HGQVVISQLKSLDFTER  89
+                +G +  +Q+KS+D   R
+Sbjct  63  KNQHINGFIDCTQIKSVDIHAR  84
+
+
+> prot012809 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=120
+
+ Score = 30.0 bits (66),  Expect = 0.069, Method: Compositional matrix adjust.
+ Identities = 21/106 (20%), Positives = 49/106 (46%), Gaps = 6/106 (6%)
+
+Query  10   KKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIK--NMPTRYTLP  67
+            ++GD+   D  P  G E    RP +++     N+ +   ++  IT  I    +PT   + 
+Sbjct  3    RRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIE  62
+
+Query  68   D---EMETHGQVVISQLKSLDFTERKLSQIEHLPLKDMAKIDQIIE  110
+                +++    +++ Q+++LD    K  ++ +L    M ++D  ++
+Sbjct  63   KKKYKLDKDSVILLEQIRTLDKNRLK-EKLTYLSDNKMKEVDYALD  107
+
+
+> prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 29.6 bits (65),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 17/81 (21%), Positives = 38/81 (47%), Gaps = 5/81 (6%)
+
+Query  10  KKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIK--NMPTRYTLP  67
+           ++GD+   D  P  G E    RP +++     N+ +   ++  IT  I    +PT   + 
+Sbjct  3   RRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIE  62
+
+Query  68  D---EMETHGQVVISQLKSLD  85
+               +++    +++ Q+++LD
+Sbjct  63  KKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=120
+
+ Score = 29.6 bits (65),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 17/81 (21%), Positives = 38/81 (47%), Gaps = 5/81 (6%)
+
+Query  10  KKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIK--NMPTRYTLP  67
+           ++GD+   D  P  G E    RP +++     N+ +   ++  IT  I    +PT   + 
+Sbjct  3   RRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIE  62
+
+Query  68  D---EMETHGQVVISQLKSLD  85
+               +++    +++ Q+++LD
+Sbjct  63  KKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot005758 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=251
+
+ Score = 28.9 bits (63),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 16/55 (29%), Positives = 32/55 (58%), Gaps = 3/55 (5%)
+
+Query  3    DEKKYIPK--KGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITS  55
+            + K + PK  +G+IV++DF  +  KE       +V+++ + N + +  VI P++S
+Sbjct  53   NHKGFYPKFKQGEIVFVDFGINVNKEFSNSHFAIVMNKNDSNTEDIVNVI-PLSS  106
+
+
+> prot007522 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=251
+
+ Score = 28.9 bits (63),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 16/55 (29%), Positives = 32/55 (58%), Gaps = 3/55 (5%)
+
+Query  3    DEKKYIPK--KGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITS  55
+            + K + PK  +G+IV++DF  +  KE       +V+++ + N + +  VI P++S
+Sbjct  53   NHKGFYPKFKQGEIVFVDFGINVNKEFSNSHFAIVMNKNDSNTEDIVNVI-PLSS  106
+
+
+> prot014364 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=315
+
+ Score = 26.9 bits (58),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 14/24 (58%), Gaps = 0/24 (0%)
+
+Query  3   DEKKYIPKKGDIVWIDFDPSAGKE  26
+           D+ K IPK   IVW DFD    +E
+Sbjct  18  DDIKEIPKDATIVWYDFDEPNEQE  41
+
+
+> prot009189 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=315
+
+ Score = 26.9 bits (58),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 14/24 (58%), Gaps = 0/24 (0%)
+
+Query  3   DEKKYIPKKGDIVWIDFDPSAGKE  26
+           D+ K IPK   IVW DFD    +E
+Sbjct  18  DDIKEIPKDATIVWYDFDEPNEQE  41
+
+
+> prot007264 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=33
+
+ Score = 24.3 bits (51),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 9/13 (69%), Positives = 12/13 (92%), Gaps = 0/13 (0%)
+
+Query  50  ICPITSTIKNMPT  62
+           IC ITST+K++PT
+Sbjct  12  ICVITSTLKSIPT  24
+
+
+> prot008879 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=534
+
+ Score = 25.8 bits (55),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 13/43 (30%), Positives = 22/43 (51%), Gaps = 2/43 (5%)
+
+Query  18   DFDPSAGKEIQKR--RPGLVVSRYEFNRKTMFAVICPITSTIK  58
+            + +PS   ++ +R  RPG+  S    N  T  A +C +  T+K
+Sbjct  62   ELEPSWNIKLYERLDRPGIESSNERHNAGTGHAALCELNYTVK  104
+
+
+> prot005117 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=48
+
+ Score = 24.3 bits (51),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 10/34 (29%), Positives = 17/34 (50%), Gaps = 0/34 (0%)
+
+Query  31  RPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRY  64
+           R  L ++ +  N   +F  IC I+   KN+  R+
+Sbjct  6   RSYLWITMHWINEDNIFIFICQISYCFKNLMHRF  39
+
+
+> prot013193 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=48
+
+ Score = 24.3 bits (51),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 10/34 (29%), Positives = 17/34 (50%), Gaps = 0/34 (0%)
+
+Query  31  RPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRY  64
+           R  L ++ +  N   +F  IC I+   KN+  R+
+Sbjct  6   RSYLWITMHWINEDNIFIFICQISYCFKNLMHRF  39
+
+
+> prot007790 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=339
+
+ Score = 24.6 bits (52),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 19/35 (54%), Gaps = 5/35 (14%)
+
+Query  8   IPKKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFN  42
+           +P +  IVW DF+ +  KE +  R     + ++FN
+Sbjct  47  VPSEATIVWYDFEDATEKENEFLR-----NHFDFN  76
+
+
+> prot018668 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=72
+
+ Score = 23.9 bits (50),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 7/21 (33%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  35  VVSRYEFNRKTMFAVICPITS  55
+           +V+ +EFN  ++F++ C  T+
+Sbjct  40  IVTFFEFNYTSIFSIFCKFTT  60
+
+
+> prot018528 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=72
+
+ Score = 23.9 bits (50),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 7/21 (33%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  35  VVSRYEFNRKTMFAVICPITS  55
+           +V+ +EFN  ++F++ C  T+
+Sbjct  40  IVTFFEFNYTSIFSIFCKFTT  60
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 128400448
+
+
+Query= PemK-Sa5 the toxin component of pemIK-Sa5 TA system
+
+Length=120
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [as...  248     2e-87
+  prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [as...  51.2    7e-10
+  prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [as...  49.7    4e-09
+  prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147]...  49.7    4e-09
+  prot012809 [organism: Staphylococcus warneri] [strain: VCU121] ...  48.1    1e-08
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  42.0    2e-06
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  28.9    0.14 
+  prot008820 [organism: Staphylococcus warneri] [strain: VCU121] ...  25.0    1.4  
+  prot002952 [organism: Staphylococcus warneri] [strain: VCU121] ...  24.6    3.5  
+  prot008029 [organism: Staphylococcus warneri] [strain: VCU121] ...  25.4    4.8  
+  prot013512 [organism: Staphylococcus aureus] [strain: UCIM6147]...  23.1    7.0  
+
+
+> prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 248 bits (633),  Expect = 2e-87, Method: Compositional matrix adjust.
+ Identities = 120/120 (100%), Positives = 120/120 (100%), Gaps = 0/120 (0%)
+
+Query  1    MVKVPHQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNYPLYV  60
+            MVKVPHQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNYPLYV
+Sbjct  1    MVKVPHQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNYPLYV  60
+
+Query  61   SINPSYGMKTSGKVLLDQLTTIDYEARQCVFLETAHEKLIDELLLKVRTVFQKVNKTNKF  120
+            SINPSYGMKTSGKVLLDQLTTIDYEARQCVFLETAHEKLIDELLLKVRTVFQKVNKTNKF
+Sbjct  61   SINPSYGMKTSGKVLLDQLTTIDYEARQCVFLETAHEKLIDELLLKVRTVFQKVNKTNKF  120
+
+
+> prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=113
+
+ Score = 51.2 bits (121),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 26/90 (29%), Positives = 51/90 (57%), Gaps = 2/90 (2%)
+
+Query  4   VPHQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNYPLYVSIN  63
+           +P +GDI+ ++  P +G E   +RP +V+S       +   ++ PI+ST +N P   ++ 
+Sbjct  8   IPKKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRYTLP  67
+
+Query  64  PSYGMKTSGKVLLDQLTTIDYEARQCVFLE  93
+               M+T G+V++ QL ++D+  R+   +E
+Sbjct  68  DE--METHGQVVISQLKSLDFTERKLSQIE  95
+
+
+> prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 49.7 bits (117),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 32/105 (30%), Positives = 52/105 (50%), Gaps = 5/105 (5%)
+
+Query  6    HQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISS--TKRNYPLYVSIN  63
+             +GD+ L + +P  G EQ G RP +++ +D    YS  VIVA I+    K   P +V I 
+Sbjct  3    RRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIE  62
+
+Query  64   -PSYGMKTSGKVLLDQLTTIDYE--ARQCVFLETAHEKLIDELLL  105
+               Y +     +LL+Q+ T+D +    +  +L     K +D  L+
+Sbjct  63   KKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALM  107
+
+
+> prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=120
+
+ Score = 49.7 bits (117),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 32/105 (30%), Positives = 52/105 (50%), Gaps = 5/105 (5%)
+
+Query  6    HQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISS--TKRNYPLYVSIN  63
+             +GD+ L + +P  G EQ G RP +++ +D    YS  VIVA I+    K   P +V I 
+Sbjct  3    RRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIE  62
+
+Query  64   -PSYGMKTSGKVLLDQLTTIDYE--ARQCVFLETAHEKLIDELLL  105
+               Y +     +LL+Q+ T+D +    +  +L     K +D  L+
+Sbjct  63   KKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALM  107
+
+
+> prot012809 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=120
+
+ Score = 48.1 bits (113),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 28/80 (35%), Positives = 43/80 (54%), Gaps = 3/80 (4%)
+
+Query  7   QGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISS--TKRNYPLYVSIN-  63
+           +GD+ L + +P  G EQ G RP +++ +D    YS  VIVA I+    K   P +V I  
+Sbjct  4   RGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEIEK  63
+
+Query  64  PSYGMKTSGKVLLDQLTTID  83
+             Y +     +LL+Q+ T+D
+Sbjct  64  KKYKLDKDSVILLEQIRTLD  83
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 42.0 bits (97),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 24/104 (23%), Positives = 57/104 (55%), Gaps = 1/104 (1%)
+
+Query  6    HQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNYPLYVSINPS  65
+             Q DIL ++  P  G E+   RP +V+++ +  + ++ V + PI++ ++ +   + +   
+Sbjct  4    KQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPITNREKRFETDIEVKTK  63
+
+Query  66   YGMKTSGKVLLDQLTTIDYEARQCVFLETAHEKLIDELLLKVRT  109
+             G+ T G +   Q+ ++D  AR+  + +   ++L +++L  V+T
+Sbjct  64   KGLIT-GVIDTIQMRSLDLNARKYNYKDELQDRLKNDVLQAVQT  106
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 28.9 bits (63),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 28/97 (29%), Positives = 46/97 (47%), Gaps = 7/97 (7%)
+
+Query  9    DILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKR---NYPLYVSINPS  65
+            D++ L+  P  G E+   RP +V+S       S    V PI  TKR    YP  V +  +
+Sbjct  6    DVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPI--TKRYDERYPTDVLVK-T  62
+
+Query  66   YGMKTSGKVLLDQLTTIDYEARQCVFLE-TAHEKLID  101
+                 +G +   Q+ ++D  AR   +L+ +  EK+I+
+Sbjct  63   KNQHINGFIDCTQIKSVDIHARPYRYLDISTTEKVIE  99
+
+
+> prot008820 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=44
+
+ Score = 25.0 bits (53),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  22  EQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNY  56
+           ++ GK  Y+ L   ++   SNVV+  P+S   RN+
+Sbjct  6   DRHGKPEYLFLFSIVLQFQSNVVLRYPLSLYHRNW  40
+
+
+> prot002952 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=77
+
+ Score = 24.6 bits (52),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 10/29 (34%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  30  IVLSHDIIADYSNVVIVAPISSTKRNYPL  58
+           ++L +DI  DY + VI+ P+ +  R  P 
+Sbjct  27  VILENDIHVDYEHEVIIYPMKNCTRIIPF  55
+
+
+> prot008029 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=325
+
+ Score = 25.4 bits (54),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 20/85 (24%), Positives = 36/85 (42%), Gaps = 8/85 (9%)
+
+Query  30   IVLSHDIIADYSNVVIVAPISSTKRNYPLYVSINPSYGMKTSGKVLLDQLTTIDYEARQC  89
+              L +D    Y +   V P++  K+N PL    NPS   +      LD    + ++  Q 
+Sbjct  70   FTLYYDKQYGYIHQFFVKPLTYAKKNSPLLEYFNPSKATQ------LDDQQQLTFKQIQQ  123
+
+Query  90   VF--LETAHEKLIDELLLKVRTVFQ  112
+             F  L ++H++ + +  L     F+
+Sbjct  124  TFPKLSSSHQQQLTDRTLHQSQFFK  148
+
+
+> prot013512 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=36
+
+ Score = 23.1 bits (48),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 8/13 (62%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  64  PSYGMKTSGKVLL  76
+           PS+G+K SGK +L
+Sbjct  14  PSFGLKVSGKFIL  26
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 129611601
+
+
+Query= PemK-Sa6 the toxin component of pemIK-Sa6 TA system
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147]...  214     1e-74
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  54.3    3e-11
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  40.8    4e-06
+  prot019380 [organism: Staphylococcus aureus] [strain: VRS7] [as...  27.3    0.36 
+  prot019249 [organism: Staphylococcus aureus] [strain: UCIM6147]...  26.2    0.71 
+  prot023282 [organism: Staphylococcus aureus] [strain: VRS7] [as...  23.9    3.0  
+  prot012358 [organism: Staphylococcus warneri] [strain: VCU121] ...  25.0    4.8  
+
+
+> prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=105
+
+ Score = 214 bits (546),  Expect = 1e-74, Method: Compositional matrix adjust.
+ Identities = 105/105 (100%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  1    MVKQFDVIKVNNPDEAKSELYVVVSNDYVNSNSPYIWTYPVFQRDRIYLTDIELVTKRYN  60
+            MVKQFDVIKVNNPDEAKSELYVVVSNDYVNSNSPYIWTYPVFQRDRIYLTDIELVTKRYN
+Sbjct  1    MVKQFDVIKVNNPDEAKSELYVVVSNDYVNSNSPYIWTYPVFQRDRIYLTDIELVTKRYN  60
+
+Query  61   YYGVIDCGIIGHIDLTKKEIKVLDKLQPRIQNKLMESIQAHIETI  105
+            YYGVIDCGIIGHIDLTKKEIKVLDKLQPRIQNKLMESIQAHIETI
+Sbjct  61   YYGVIDCGIIGHIDLTKKEIKVLDKLQPRIQNKLMESIQAHIETI  105
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 54.3 bits (129),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 28/109 (26%), Positives = 63/109 (58%), Gaps = 5/109 (5%)
+
+Query  2    VKQFDVIKVN-----NPDEAKSELYVVVSNDYVNSNSPYIWTYPVFQRDRIYLTDIELVT  56
+            +KQFD++ ++       ++ K    +V++N      + ++W  P+  R++ + TDIE+ T
+Sbjct  3    IKQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPITNREKRFETDIEVKT  62
+
+Query  57   KRYNYYGVIDCGIIGHIDLTKKEIKVLDKLQPRIQNKLMESIQAHIETI  105
+            K+    GVID   +  +DL  ++    D+LQ R++N +++++Q +++ +
+Sbjct  63   KKGLITGVIDTIQMRSLDLNARKYNYKDELQDRLKNDVLQAVQTYLKPL  111
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 40.8 bits (94),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 29/90 (32%), Positives = 47/90 (52%), Gaps = 6/90 (7%)
+
+Query  1   MVKQFDVIKVN-NP----DEAKSELYVVVSNDYVNSNSPYIWTYPVFQR-DRIYLTDIEL  54
+           MV  +DVIK++ NP    ++      +V+S+   N  S + W  P+ +R D  Y TD+ +
+Sbjct  1   MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLV  60
+
+Query  55  VTKRYNYYGVIDCGIIGHIDLTKKEIKVLD  84
+            TK  +  G IDC  I  +D+  +  + LD
+Sbjct  61  KTKNQHINGFIDCTQIKSVDIHARPYRYLD  90
+
+
+> prot019380 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=74
+
+ Score = 27.3 bits (59),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 13/28 (46%), Positives = 17/28 (61%), Gaps = 0/28 (0%)
+
+Query  28  YVNSNSPYIWTYPVFQRDRIYLTDIELV  55
+           Y NS+  +  TYP  Q+D  YL  IE+V
+Sbjct  8   YQNSSYLFTLTYPNTQKDYFYLASIEIV  35
+
+
+> prot019249 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=60
+
+ Score = 26.2 bits (56),  Expect = 0.71, Method: Compositional matrix adjust.
+ Identities = 16/39 (41%), Positives = 21/39 (54%), Gaps = 3/39 (8%)
+
+Query  20  LYVVVSND---YVNSNSPYIWTYPVFQRDRIYLTDIELV  55
+           LY ++ N    Y NS   +  TYP  Q+D  YL  IE+V
+Sbjct  3   LYTLLINQICIYQNSAYLFTLTYPNTQKDYFYLVSIEIV  41
+
+
+> prot023282 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=37
+
+ Score = 23.9 bits (50),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 13/32 (41%), Positives = 15/32 (47%), Gaps = 0/32 (0%)
+
+Query  16  AKSELYVVVSNDYVNSNSPYIWTYPVFQRDRI  47
+           A S LY      Y+NS SPY     VF +  I
+Sbjct  4   AVSFLYKFFFRKYINSISPYFLIIRVFMKTVI  35
+
+
+> prot012358 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=406
+
+ Score = 25.0 bits (53),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 14/39 (36%), Positives = 22/39 (56%), Gaps = 1/39 (3%)
+
+Query  59   YNYYGVIDCGIIGHIDLTKKEIKVLDKLQPRIQNKLMES  97
+            + YY + D  ++  ID+ KK  K  D+LQ +  N L +S
+Sbjct  153  FKYYDLQDISVLDKIDIPKK-AKTRDELQAKRNNYLEDS  190
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 129681941
+
+
+Query= PemK-Scar the toxin component of pemIK-Scar TA system
+
+Length=112
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  97.8    4e-28
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  83.6    1e-22
+  prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [as...  62.0    4e-14
+  prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147]...  47.8    1e-08
+  prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [as...  41.6    3e-06
+  prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147]...  41.6    3e-06
+  prot012809 [organism: Staphylococcus warneri] [strain: VCU121] ...  40.8    6e-06
+  prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [as...  36.2    3e-04
+  prot011047 [organism: Staphylococcus aureus] [strain: VRS7] [as...  28.5    0.43 
+  prot001959 [organism: Staphylococcus aureus] [strain: UCIM6147]...  28.5    0.43 
+  prot002841 [organism: Staphylococcus warneri] [strain: VCU121] ...  28.1    0.49 
+  prot016907 [organism: Staphylococcus aureus] [strain: VRS7] [as...  26.2    2.5  
+  prot010895 [organism: Staphylococcus aureus] [strain: UCIM6147]...  25.8    2.7  
+  prot003211 [organism: Staphylococcus warneri] [strain: VCU121] ...  25.4    4.4  
+  prot013080 [organism: Staphylococcus aureus] [strain: UCIM6147]...  23.9    4.5  
+  prot005002 [organism: Staphylococcus aureus] [strain: VRS7] [as...  24.3    4.8  
+  prot001466 [organism: Staphylococcus aureus] [strain: VRS7] [as...  23.9    7.9  
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 97.8 bits (242),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 46/110 (42%), Positives = 71/110 (65%), Gaps = 1/110 (1%)
+
+Query  1    MVEQYKIIDVNLDPILGREKGKYRPCVVLSRTSFNNKTSLVWVSPITSR-PVKYPTDVAL  59
+            MV  Y +I ++ +P++G EKG YRPC+V+S T FN  +   WV PIT R   +YPTDV +
+Sbjct  1    MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLV  60
+
+Query  60   KTMEHHIKGTIDVGQIRTLDLSTRHYREVDSVSHEVMHKIDDIITNILKI  109
+            KT   HI G ID  QI+++D+  R YR +D  + E + +++D + ++L +
+Sbjct  61   KTKNQHINGFIDCTQIKSVDIHARPYRYLDISTTEKVIEVNDRLKSLLNL  110
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 83.6 bits (205),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 40/107 (37%), Positives = 64/107 (60%), Gaps = 0/107 (0%)
+
+Query  2    VEQYKIIDVNLDPILGREKGKYRPCVVLSRTSFNNKTSLVWVSPITSRPVKYPTDVALKT  61
+            ++Q+ I+ ++LDP LGREK K RPC+V++       T  VW+ PIT+R  ++ TD+ +KT
+Sbjct  3    IKQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPITNREKRFETDIEVKT  62
+
+Query  62   MEHHIKGTIDVGQIRTLDLSTRHYREVDSVSHEVMHKIDDIITNILK  108
+             +  I G ID  Q+R+LDL+ R Y   D +   + + +   +   LK
+Sbjct  63   KKGLITGVIDTIQMRSLDLNARKYNYKDELQDRLKNDVLQAVQTYLK  109
+
+
+> prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=113
+
+ Score = 62.0 bits (149),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 37/102 (36%), Positives = 55/102 (54%), Gaps = 3/102 (3%)
+
+Query  7    IIDVNLDPILGREKGKYRPCVVLSRTSFNNKTSLVWVSPITSRPVKYPTDVALK-TMEHH  65
+            I+ ++ DP  G+E  K RP +V+SR  FN KT    + PITS     PT   L   ME H
+Sbjct  14   IVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRYTLPDEMETH  73
+
+Query  66   IKGTIDVGQIRTLDLSTRHYREVDSVSHEVMHKIDDIITNIL  107
+              G + + Q+++LD + R   +++ +  + M KID II  I 
+Sbjct  74   --GQVVISQLKSLDFTERKLSQIEHLPLKDMAKIDQIIEYIF  113
+
+
+> prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=105
+
+ Score = 47.8 bits (112),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 28/99 (28%), Positives = 50/99 (51%), Gaps = 5/99 (5%)
+
+Query  1   MVEQYKIIDVNLDPILGREKGKYRPCVVLSRTSFNNKTSLVWVSPITSRPVKYPTDVALK  60
+           MV+Q+ +I VN       ++ K    VV+S    N+ +  +W  P+  R   Y TD+ L 
+Sbjct  1   MVKQFDVIKVN-----NPDEAKSELYVVVSNDYVNSNSPYIWTYPVFQRDRIYLTDIELV  55
+
+Query  61  TMEHHIKGTIDVGQIRTLDLSTRHYREVDSVSHEVMHKI  99
+           T  ++  G ID G I  +DL+ +  + +D +   + +K+
+Sbjct  56  TKRYNYYGVIDCGIIGHIDLTKKEIKVLDKLQPRIQNKL  94
+
+
+> prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 41.6 bits (96),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 55/107 (51%), Gaps = 5/107 (5%)
+
+Query  1    MVEQYKIIDVNLDPILGREKGKYRPCVVLSRTSFNNKTSLVWVSPITSR--PVKYPTDVA  58
+            M+ +  +   +L P+ G E+G  RP V++   + N  +  V V+ IT R    K PT V 
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  59   LKTMEHHI--KGTIDVGQIRTLDLSTRHYREVDSVSHEVMHKIDDII  103
+            ++  ++ +     I + QIRTLD   R   ++  +S + M ++D+ +
+Sbjct  61   IEKKKYKLDKDSVILLEQIRTLD-KKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=120
+
+ Score = 41.6 bits (96),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 55/107 (51%), Gaps = 5/107 (5%)
+
+Query  1    MVEQYKIIDVNLDPILGREKGKYRPCVVLSRTSFNNKTSLVWVSPITSR--PVKYPTDVA  58
+            M+ +  +   +L P+ G E+G  RP V++   + N  +  V V+ IT R    K PT V 
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  59   LKTMEHHI--KGTIDVGQIRTLDLSTRHYREVDSVSHEVMHKIDDII  103
+            ++  ++ +     I + QIRTLD   R   ++  +S + M ++D+ +
+Sbjct  61   IEKKKYKLDKDSVILLEQIRTLD-KKRLKEKLTYLSDDKMKEVDNAL  106
+
+
+> prot012809 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=120
+
+ Score = 40.8 bits (94),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 32/116 (28%), Positives = 57/116 (49%), Gaps = 5/116 (4%)
+
+Query  1    MVEQYKIIDVNLDPILGREKGKYRPCVVLSRTSFNNKTSLVWVSPITSR--PVKYPTDVA  58
+            M+ +  +   +L P+ G E+G  RP V++   + N  +  V V+ IT R    K PT V 
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  59   LKTMEHHI--KGTIDVGQIRTLDLSTRHYREVDSVSHEVMHKIDDIITNILKIESF  112
+            ++  ++ +     I + QIRTLD   R   ++  +S   M ++D  +   L + +F
+Sbjct  61   IEKKKYKLDKDSVILLEQIRTLD-KNRLKEKLTYLSDNKMKEVDYALDISLGLHNF  115
+
+
+> prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 36.2 bits (82),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 28/104 (27%), Positives = 54/104 (52%), Gaps = 4/104 (4%)
+
+Query  4    QYKIIDVNLDPILGREKGKYRPCVVLSRTSFNNKTSLVWVSPITSRPVKYPTDVALK-TM  62
+            Q  I+ +N  P  G E+   RP +VLS     + +++V V+PI+S    YP  V++  + 
+Sbjct  7    QGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNYPLYVSINPSY  66
+
+Query  63   EHHIKGTIDVGQIRTLDLSTRHYREVDSVSHEVMHKIDDIITNI  106
+                 G + + Q+ T+D   R    +++ +HE +  ID+++  +
+Sbjct  67   GMKTSGKVLLDQLTTIDYEARQCVFLET-AHEKL--IDELLLKV  107
+
+
+> prot011047 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=818
+
+ Score = 28.5 bits (62),  Expect = 0.43, Method: Composition-based stats.
+ Identities = 14/28 (50%), Positives = 18/28 (64%), Gaps = 0/28 (0%)
+
+Query  9    DVNLDPILGREKGKYRPCVVLSRTSFNN  36
+            D  LDP++GR+K   R   VLSR + NN
+Sbjct  176  DGTLDPVIGRDKEITRVIEVLSRRTKNN  203
+
+
+> prot001959 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=818
+
+ Score = 28.5 bits (62),  Expect = 0.43, Method: Composition-based stats.
+ Identities = 14/28 (50%), Positives = 18/28 (64%), Gaps = 0/28 (0%)
+
+Query  9    DVNLDPILGREKGKYRPCVVLSRTSFNN  36
+            D  LDP++GR+K   R   VLSR + NN
+Sbjct  176  DGTLDPVIGRDKEITRVIEVLSRRTKNN  203
+
+
+> prot002841 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=817
+
+ Score = 28.1 bits (61),  Expect = 0.49, Method: Composition-based stats.
+ Identities = 14/28 (50%), Positives = 18/28 (64%), Gaps = 0/28 (0%)
+
+Query  9    DVNLDPILGREKGKYRPCVVLSRTSFNN  36
+            D  LDP++GR+K   R   VLSR + NN
+Sbjct  176  DGTLDPVVGRDKEITRVIEVLSRRTKNN  203
+
+
+> prot016907 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=701
+
+ Score = 26.2 bits (56),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  12   LDPILGREKGKYRPCVVLSRTSFNN  36
+            LDP++GR+K       VLSR + NN
+Sbjct  97   LDPVIGRDKEIQETAEVLSRRTKNN  121
+
+
+> prot010895 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=701
+
+ Score = 25.8 bits (55),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  12   LDPILGREKGKYRPCVVLSRTSFNN  36
+            LDP++GR+K       VLSR + NN
+Sbjct  97   LDPVIGRDKEIQETAEVLSRRTKNN  121
+
+
+> prot003211 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=331
+
+ Score = 25.4 bits (54),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 8/14 (57%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  39   SLVWVSPITSRPVK  52
+            +  W +PI SRPVK
+Sbjct  133  NFTWAAPIMSRPVK  146
+
+
+> prot013080 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=56
+
+ Score = 23.9 bits (50),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 14/44 (32%), Positives = 21/44 (48%), Gaps = 3/44 (7%)
+
+Query  12  LDPILGREKGKY---RPCVVLSRTSFNNKTSLVWVSPITSRPVK  52
+           + PI     G +   R   +LS  SF N +S VW++ +   P K
+Sbjct  6   ISPIPPTADGVFTSTRQAFILSPKSFCNVSSSVWITAVCPNPPK  49
+
+
+> prot005002 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=83
+
+ Score = 24.3 bits (51),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 14/44 (32%), Positives = 21/44 (48%), Gaps = 3/44 (7%)
+
+Query  12  LDPILGREKGKY---RPCVVLSRTSFNNKTSLVWVSPITSRPVK  52
+           + PI     G +   R   +LS  SF N +S VW++ +   P K
+Sbjct  33  ISPIPPTADGVFTSTRQAFILSPKSFCNVSSSVWITAVCPNPPK  76
+
+
+> prot001466 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=104
+
+ Score = 23.9 bits (50),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 13/46 (28%), Positives = 25/46 (54%), Gaps = 6/46 (13%)
+
+Query  61   TMEHHIKGTIDVGQIRTLDLSTRHYREVDSVSHEVMHKIDDIITNI  106
+            T+ HH+K  +D   + T     +H+ +++   H ++   DDII N+
+Sbjct  45   TLSHHMKSLVDNELVTTRKDGNKHWYQLN---HAIL---DDIIQNL  84
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 126394191
+
+
+Query= PemK-Swar the toxin component of pemIK-Swar TA system
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  224     4e-78
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  83.6    1e-22
+  prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [as...  45.1    1e-07
+  prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [as...  41.6    3e-06
+  prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147]...  41.6    3e-06
+  prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147]...  41.2    4e-06
+  prot012809 [organism: Staphylococcus warneri] [strain: VCU121] ...  41.2    4e-06
+  prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [as...  27.7    0.36 
+  prot005828 [organism: Staphylococcus aureus] [strain: UCIM6147]...  23.9    3.2  
+  prot008578 [organism: Staphylococcus aureus] [strain: VRS7] [as...  22.7    7.6  
+  prot006510 [organism: Staphylococcus aureus] [strain: UCIM6147]...  22.7    7.6  
+  prot003974 [organism: Staphylococcus aureus] [strain: VRS7] [as...  23.1    7.7  
+  prot007215 [organism: Staphylococcus aureus] [strain: UCIM6147]...  23.1    7.7  
+  prot013840 [organism: Staphylococcus warneri] [strain: VCU121] ...  22.7    8.6  
+  prot006297 [organism: Staphylococcus warneri] [strain: VCU121] ...  22.7    8.7  
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 224 bits (570),  Expect = 4e-78, Method: Compositional matrix adjust.
+ Identities = 109/110 (99%), Positives = 109/110 (99%), Gaps = 0/110 (0%)
+
+Query  1    MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLV  60
+            MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLV
+Sbjct  1    MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLV  60
+
+Query  61   KTKNQHINGFIDCTQIKSVDIHARPYRYLDISTTEKGIEVNDRLKSLLNL  110
+            KTKNQHINGFIDCTQIKSVDIHARPYRYLDISTTEK IEVNDRLKSLLNL
+Sbjct  61   KTKNQHINGFIDCTQIKSVDIHARPYRYLDISTTEKVIEVNDRLKSLLNL  110
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 83.6 bits (205),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 42/105 (40%), Positives = 66/105 (63%), Gaps = 9/105 (9%)
+
+Query  2    VNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLVK  61
+            +  +D++ +D +P +G EK   RPCLVI++    + + F W++PIT R ++R+ TD+ VK
+Sbjct  3    IKQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPITNR-EKRFETDIEVK  61
+
+Query  62   TKNQHINGFIDCTQIKSVDIHARPYRYLDISTTEKGIEVNDRLKS  106
+            TK   I G ID  Q++S+D++AR Y Y D        E+ DRLK+
+Sbjct  62   TKKGLITGVIDTIQMRSLDLNARKYNYKD--------ELQDRLKN  98
+
+
+> prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=113
+
+ Score = 45.1 bits (105),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 29/82 (35%), Positives = 44/82 (54%), Gaps = 8/82 (10%)
+
+Query  6   DVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPIT---KRYDERYPTDVLVKT  62
+           D++ +DF+P  G E    RP LV+S  EFN+ + FA + PIT   K    RY     ++T
+Sbjct  13  DIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRYTLPDEMET  72
+
+Query  63  KNQHINGFIDCTQIKSVDIHAR  84
+                +G +  +Q+KS+D   R
+Sbjct  73  -----HGQVVISQLKSLDFTER  89
+
+
+> prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 41.6 bits (96),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 27/83 (33%), Positives = 44/83 (53%), Gaps = 3/83 (4%)
+
+Query  1   MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDE-RYPTDVL  59
+           M+   DV   D +PV G+E+G  RP ++I +   NK S    V  IT R ++ + PT V 
+Sbjct  1   MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  60  VKTKNQHI--NGFIDCTQIKSVD  80
+           ++ K   +  +  I   QI+++D
+Sbjct  61  IEKKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=120
+
+ Score = 41.6 bits (96),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 27/83 (33%), Positives = 44/83 (53%), Gaps = 3/83 (4%)
+
+Query  1   MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDE-RYPTDVL  59
+           M+   DV   D +PV G+E+G  RP ++I +   NK S    V  IT R ++ + PT V 
+Sbjct  1   MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  60  VKTKNQHI--NGFIDCTQIKSVD  80
+           ++ K   +  +  I   QI+++D
+Sbjct  61  IEKKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=105
+
+ Score = 41.2 bits (95),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 29/90 (32%), Positives = 47/90 (52%), Gaps = 6/90 (7%)
+
+Query  1   MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLV  60
+           MV  +DVIK++ NP    ++      +V+S+   N  S + W  P+ +R D  Y TD+ +
+Sbjct  1   MVKQFDVIKVN-NP----DEAKSELYVVVSNDYVNSNSPYIWTYPVFQR-DRIYLTDIEL  54
+
+Query  61  KTKNQHINGFIDCTQIKSVDIHARPYRYLD  90
+            TK  +  G IDC  I  +D+  +  + LD
+Sbjct  55  VTKRYNYYGVIDCGIIGHIDLTKKEIKVLD  84
+
+
+> prot012809 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=120
+
+ Score = 41.2 bits (95),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 27/83 (33%), Positives = 44/83 (53%), Gaps = 3/83 (4%)
+
+Query  1   MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDE-RYPTDVL  59
+           M+   DV   D +PV G+E+G  RP ++I +   NK S    V  IT R ++ + PT V 
+Sbjct  1   MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  60  VKTKNQHI--NGFIDCTQIKSVD  80
+           ++ K   +  +  I   QI+++D
+Sbjct  61  IEKKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 27.7 bits (60),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 25/90 (28%), Positives = 41/90 (46%), Gaps = 6/90 (7%)
+
+Query  6   DVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPI--TKRYDERYPTDVLVK-T  62
+           D++ L+  P  G E+   RP +V+S       S    V PI  TKR    YP  V +  +
+Sbjct  9   DILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKR---NYPLYVSINPS  65
+
+Query  63  KNQHINGFIDCTQIKSVDIHARPYRYLDIS  92
+                +G +   Q+ ++D  AR   +L+ +
+Sbjct  66  YGMKTSGKVLLDQLTTIDYEARQCVFLETA  95
+
+
+> prot005828 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=44
+
+ Score = 23.9 bits (50),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 20/33 (61%), Gaps = 2/33 (6%)
+
+Query  57  DVLVKTKNQHINGFIDCTQIKSVDIHARPYRYL  89
+           DVL +  +QH+N F+   ++K+V  H   + YL
+Sbjct  5   DVLARNFDQHLNYFV--YRLKTVHYHMLGHNYL  35
+
+
+> prot008578 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=33
+
+ Score = 22.7 bits (47),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 11/20 (55%), Gaps = 0/20 (0%)
+
+Query  31  DTEFNKVSGFAWVIPITKRY  50
+           + EFN+ S   W I I  RY
+Sbjct  13  NYEFNRSSNRNWFISIRSRY  32
+
+
+> prot006510 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=33
+
+ Score = 22.7 bits (47),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 11/20 (55%), Gaps = 0/20 (0%)
+
+Query  31  DTEFNKVSGFAWVIPITKRY  50
+           + EFN+ S   W I I  RY
+Sbjct  13  NYEFNRSSNRNWFISIRSRY  32
+
+
+> prot003974 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=46
+
+ Score = 23.1 bits (48),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 11/23 (48%), Gaps = 0/23 (0%)
+
+Query  51  DERYPTDVLVKTKNQHINGFIDC  73
+           D  YP      TKNQ I G  +C
+Sbjct  2   DSSYPCYQRTTTKNQEIGGVKEC  24
+
+
+> prot007215 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=46
+
+ Score = 23.1 bits (48),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 11/23 (48%), Gaps = 0/23 (0%)
+
+Query  51  DERYPTDVLVKTKNQHINGFIDC  73
+           D  YP      TKNQ I G  +C
+Sbjct  2   DSSYPCYQRTTTKNQEIGGVKEC  24
+
+
+> prot013840 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=39
+
+ Score = 22.7 bits (47),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 9/22 (41%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  27  LVISDTEFNKVSGFAWVIPITK  48
+           L+I DTEFN +  F + +   K
+Sbjct  16  LLIMDTEFNHILDFLYTMQQIK  37
+
+
+> prot006297 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=45
+
+ Score = 22.7 bits (47),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 15/29 (52%), Gaps = 0/29 (0%)
+
+Query  8   IKLDFNPVIGTEKGNYRPCLVISDTEFNK  36
+           I++DF   +     +  PC   SDT FNK
+Sbjct  1   IRIDFKCKVPILASSGIPCHFSSDTSFNK  29
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 128350602
+
+
+Query= PemK-Scap the toxin component of pemIK-Scap TA system
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  122     6e-38
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  91.7    8e-26
+  prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147]...  69.7    3e-17
+  prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [as...  53.5    1e-10
+  prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147]...  53.5    1e-10
+  prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [as...  53.1    1e-10
+  prot012809 [organism: Staphylococcus warneri] [strain: VCU121] ...  50.1    2e-09
+  prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [as...  42.0    2e-06
+  prot015329 [organism: Staphylococcus aureus] [strain: UCIM6147]...  25.0    1.5  
+  prot011493 [organism: Staphylococcus warneri] [strain: VCU121] ...  25.8    3.3  
+  prot022498 [organism: Staphylococcus aureus] [strain: VRS7] [as...  24.3    8.7  
+  prot011904 [organism: Staphylococcus aureus] [strain: UCIM6147]...  24.3    9.7  
+  prot004895 [organism: Staphylococcus aureus] [strain: UCIM6147]...  24.3    9.8  
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 122 bits (306),  Expect = 6e-38, Method: Compositional matrix adjust.
+ Identities = 55/105 (52%), Positives = 76/105 (72%), Gaps = 0/105 (0%)
+
+Query  2    VNQFDVVMIDLDPTRGKEKQKYRPCVVVSNDFVNQHSPFIWALPITNRPKRFPSDVTVKT  61
+            + QFD++ IDLDPT G+EKQK RPC+V++N    + + F+W LPITNR KRF +D+ VKT
+Sbjct  3    IKQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPITNREKRFETDIEVKT  62
+
+Query  62   KNNSITGIIDTIQIRSLDAKARRIKKIDELDESIKSDVINTIVAH  106
+            K   ITG+IDTIQ+RSLD  AR+    DEL + +K+DV+  +  +
+Sbjct  63   KKGLITGVIDTIQMRSLDLNARKYNYKDELQDRLKNDVLQAVQTY  107
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 91.7 bits (226),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 44/90 (49%), Positives = 60/90 (67%), Gaps = 1/90 (1%)
+
+Query  1   MVNQFDVVMIDLDPTRGKEKQKYRPCVVVSNDFVNQHSPFIWALPITNR-PKRFPSDVTV  59
+           MVN +DV+ +D +P  G EK  YRPC+V+S+   N+ S F W +PIT R  +R+P+DV V
+Sbjct  1   MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLV  60
+
+Query  60  KTKNNSITGIIDTIQIRSLDAKARRIKKID  89
+           KTKN  I G ID  QI+S+D  AR  + +D
+Sbjct  61  KTKNQHINGFIDCTQIKSVDIHARPYRYLD  90
+
+
+> prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=105
+
+ Score = 69.7 bits (169),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 38/106 (36%), Positives = 63/106 (59%), Gaps = 5/106 (5%)
+
+Query  1    MVNQFDVVMIDLDPTRGKEKQKYRPCVVVSNDFVNQHSPFIWALPITNRPKRFPSDVTVK  60
+            MV QFDV+ ++ +P   K +      VVVSND+VN +SP+IW  P+  R + + +D+ + 
+Sbjct  1    MVKQFDVIKVN-NPDEAKSEL----YVVVSNDYVNSNSPYIWTYPVFQRDRIYLTDIELV  55
+
+Query  61   TKNNSITGIIDTIQIRSLDAKARRIKKIDELDESIKSDVINTIVAH  106
+            TK  +  G+ID   I  +D   + IK +D+L   I++ ++ +I AH
+Sbjct  56   TKRYNYYGVIDCGIIGHIDLTKKEIKVLDKLQPRIQNKLMESIQAH  101
+
+
+> prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 53.5 bits (127),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 36/117 (31%), Positives = 59/117 (50%), Gaps = 11/117 (9%)
+
+Query  1    MVNQFDVVMIDLDPTRGKEKQKYRPCVVVSNDFVNQHSPFIWALPITNR--PKRFPSDVT  58
+            M+ + DV + DL P +G E+   RP V++ ND  N++SP +    IT R    + P+ V 
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  59   VKTKNNSI--TGIIDTIQIRSLDAKARRIK-------KIDELDESIKSDVINTIVAH  106
+            ++ K   +    +I   QIR+LD K  + K       K+ E+D ++   +    VAH
+Sbjct  61   IEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGLNAVAH  117
+
+
+> prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=120
+
+ Score = 53.5 bits (127),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 36/117 (31%), Positives = 59/117 (50%), Gaps = 11/117 (9%)
+
+Query  1    MVNQFDVVMIDLDPTRGKEKQKYRPCVVVSNDFVNQHSPFIWALPITNR--PKRFPSDVT  58
+            M+ + DV + DL P +G E+   RP V++ ND  N++SP +    IT R    + P+ V 
+Sbjct  1    MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  59   VKTKNNSI--TGIIDTIQIRSLDAKARRIK-------KIDELDESIKSDVINTIVAH  106
+            ++ K   +    +I   QIR+LD K  + K       K+ E+D ++   +    VAH
+Sbjct  61   IEKKKYKLDKDSVILLEQIRTLDKKRLKEKLTYLSDDKMKEVDNALMISLGLNAVAH  117
+
+
+> prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=113
+
+ Score = 53.1 bits (126),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 32/86 (37%), Positives = 49/86 (57%), Gaps = 1/86 (1%)
+
+Query  6   DVVMIDLDPTRGKEKQKYRPCVVVSNDFVNQHSPFIWALPITNRPKRFPSDVTVKTKNNS  65
+           D+V ID DP+ GKE QK RP +VVS    N+ + F    PIT+  K  P+  T+  +  +
+Sbjct  13  DIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRYTLPDEMET  72
+
+Query  66  ITGIIDTIQIRSLDAKARRIKKIDEL  91
+             G +   Q++SLD   R++ +I+ L
+Sbjct  73  -HGQVVISQLKSLDFTERKLSQIEHL  97
+
+
+> prot012809 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=120
+
+ Score = 50.1 bits (118),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 28/83 (34%), Positives = 45/83 (54%), Gaps = 4/83 (5%)
+
+Query  1   MVNQFDVVMIDLDPTRGKEKQKYRPCVVVSNDFVNQHSPFIWALPITNR--PKRFPSDVT  58
+           M+ + DV + DL P +G E+   RP V++ ND  N++SP +    IT R    + P+ V 
+Sbjct  1   MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  59  VKTKNNSI--TGIIDTIQIRSLD  79
+           ++ K   +    +I   QIR+LD
+Sbjct  61  IEKKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 42.0 bits (97),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 25/98 (26%), Positives = 52/98 (53%), Gaps = 9/98 (9%)
+
+Query  3    NQFDVVMIDLDPTRGKEKQKYRPCVVVSNDFVNQHSPFIWALPITNRPKRFPSDVTVK-T  61
+            +Q D+++++  P  G E+   RP +V+S+D +  +S  +   PI++  + +P  V++  +
+Sbjct  6    HQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNYPLYVSINPS  65
+
+Query  62   KNNSITGIIDTIQIRSLDAKARRI--------KKIDEL  91
+                 +G +   Q+ ++D +AR+         K IDEL
+Sbjct  66   YGMKTSGKVLLDQLTTIDYEARQCVFLETAHEKLIDEL  103
+
+
+> prot015329 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=50
+
+ Score = 25.0 bits (53),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 9/27 (33%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  34  VNQHSPFIWALPITNRPKRFPSDVTVK  60
+           V +H   IW L ++ + +RF   +T+K
+Sbjct  3   VQKHQLLIWQLLVSVQVERFLQMMTLK  29
+
+
+> prot011493 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=399
+
+ Score = 25.8 bits (55),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 19/53 (36%), Positives = 26/53 (49%), Gaps = 3/53 (6%)
+
+Query  57   VTVKTKNNSITGIIDTIQIRSLDAKARRIKKIDELDESIKSDVINTIVAHSCM  109
+            VTV+   N     IDTI + +  A+    K ++E+ E IK  VI   V  S M
+Sbjct  181  VTVEYDENDKPKRIDTIVVSTQHAED---KSLEEIQEDIKKHVIYPTVPESLM  230
+
+
+> prot022498 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=554
+
+ Score = 24.3 bits (51),  Expect = 8.7, Method: Composition-based stats.
+ Identities = 32/115 (28%), Positives = 49/115 (43%), Gaps = 11/115 (10%)
+
+Query  5    FDVVMIDLDPTRGKEKQKYRPCVVVSNDFVNQHSPFI-WALPITNRPKRF-PSDVTVKTK  62
+            F + ++  DP    EK K       + D + QHS F+    P+T + K    +D   K K
+Sbjct  185  FGMKILAFDPYLTDEKAKSLSITKATVDEIAQHSDFVTLHTPLTPKTKGLINADFFAKAK  244
+
+Query  63   ------NNSITGIID-TIQIRSLDAKARRIKKIDELDESIKSDVINTIVAHSCMI  110
+                  N +  GIID    I++LD        ID  +    +D  + +VAH  +I
+Sbjct  245  PSLQIINVARGGIIDEKALIKALDEGQISRAAIDVFEHEPATD--SPLVAHDKII  297
+
+
+> prot011904 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=2271
+
+ Score = 24.3 bits (51),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 15/44 (34%), Positives = 21/44 (48%), Gaps = 5/44 (11%)
+
+Query  46   ITNRPKRFPSDVTVKTKNNSITGI-----IDTIQIRSLDAKARR  84
+            +TN     PS +T  + NN+I+G        TI I S DA   +
+Sbjct  696  VTNTVTGLPSGLTFDSTNNTISGTPTNIGTSTISIVSTDASGNK  739
+
+
+> prot004895 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=554
+
+ Score = 24.3 bits (51),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 30/115 (26%), Positives = 50/115 (43%), Gaps = 11/115 (10%)
+
+Query  5    FDVVMIDLDPTRGKEKQKYRPCVVVSNDFVNQHSPFI-WALPITNRPKRFPSDV------  57
+            F + ++  DP    EK K       + D + QHS F+    P+T + K   + V      
+Sbjct  185  FGMKILAFDPYLTDEKAKSLSITKATVDEIAQHSDFVTLHTPLTPKTKGLINAVFFAKAK  244
+
+Query  58   -TVKTKNNSITGIID-TIQIRSLDAKARRIKKIDELDESIKSDVINTIVAHSCMI  110
+             +++  N +  GIID    I++LD        ID  +    +D  + +VAH  +I
+Sbjct  245  PSLQIINVARGGIIDEKALIKALDEGQISRAAIDVFEHEPATD--SPLVAHDKII  297
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 128350602
+
+
+Query= PemK-Ssci the toxin component of pemIK-Ssci TA system
+
+Length=116
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [as...  75.5    3e-19
+  prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [as...  53.5    9e-11
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  46.6    4e-08
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  42.0    2e-06
+  prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [as...  35.0    0.001
+  prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147]...  35.0    0.001
+  prot012809 [organism: Staphylococcus warneri] [strain: VCU121] ...  35.0    0.001
+  prot005758 [organism: Staphylococcus aureus] [strain: VRS7] [as...  26.9    1.1  
+  prot007522 [organism: Staphylococcus aureus] [strain: UCIM6147]...  26.9    1.1  
+  prot019678 [organism: Staphylococcus aureus] [strain: UCIM6147]...  24.6    3.4  
+  prot008990 [organism: Staphylococcus warneri] [strain: VCU121] ...  25.8    3.7  
+  prot021509 [organism: Staphylococcus aureus] [strain: VRS7] [as...  25.0    6.5  
+  prot010100 [organism: Staphylococcus aureus] [strain: VRS7] [as...  24.6    6.6  
+  prot020803 [organism: Staphylococcus aureus] [strain: UCIM6147]...  25.0    6.7  
+  prot021884 [organism: Staphylococcus aureus] [strain: UCIM6147]...  24.3    9.4  
+
+
+> prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=113
+
+ Score = 75.5 bits (184),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 37/88 (42%), Positives = 58/88 (66%), Gaps = 5/88 (6%)
+
+Query  6   QGTLIYIDFEPSKGSEIKKRRPAIVISRDEYNLASNLVIVCPITSTDKDRP--YFVPINN  63
+           +G +++IDF+PS G EI+KRRP +V+SR E+N  +   ++CPITST K+ P  Y +P   
+Sbjct  11  KGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRYTLP---  67
+
+Query  64  KNLKSNSKVNTKQVYSLDCTERAGRNIQ  91
+             ++++ +V   Q+ SLD TER    I+
+Sbjct  68  DEMETHGQVVISQLKSLDFTERKLSQIE  95
+
+
+> prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 53.5 bits (127),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 30/81 (37%), Positives = 48/81 (59%), Gaps = 1/81 (1%)
+
+Query  6   QGTLIYIDFEPSKGSEIKKRRPAIVISRDEYNLASNLVIVCPITSTDKDRPYFVPIN-NK  64
+           QG ++ ++  P  G E   +RP IV+S D     SN+VIV PI+ST ++ P +V IN + 
+Sbjct  7   QGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNYPLYVSINPSY  66
+
+Query  65  NLKSNSKVNTKQVYSLDCTER  85
+            +K++ KV   Q+ ++D   R
+Sbjct  67  GMKTSGKVLLDQLTTIDYEAR  87
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 46.6 bits (109),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 42/85 (49%), Gaps = 1/85 (1%)
+
+Query  9   LIYIDFEPSKGSEIKKRRPAIVISRDEYNLASNLVIVCPITST-DKDRPYFVPINNKNLK  67
+           +I +DF P  G+E    RP +VIS  E+N  S    V PIT   D+  P  V +  KN  
+Sbjct  7   VIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLVKTKNQH  66
+
+Query  68  SNSKVNTKQVYSLDCTERAGRNIQI  92
+            N  ++  Q+ S+D   R  R + I
+Sbjct  67  INGFIDCTQIKSVDIHARPYRYLDI  91
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 42.0 bits (97),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 25/82 (30%), Positives = 42/82 (51%), Gaps = 0/82 (0%)
+
+Query  4   ISQGTLIYIDFEPSKGSEIKKRRPAIVISRDEYNLASNLVIVCPITSTDKDRPYFVPINN  63
+           I Q  ++YID +P+ G E +K RP +VI+       ++ V + PIT+ +K     + +  
+Sbjct  3   IKQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPITNREKRFETDIEVKT  62
+
+Query  64  KNLKSNSKVNTKQVYSLDCTER  85
+           K       ++T Q+ SLD   R
+Sbjct  63  KKGLITGVIDTIQMRSLDLNAR  84
+
+
+> prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 35.0 bits (79),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 28/82 (34%), Positives = 40/82 (49%), Gaps = 4/82 (5%)
+
+Query  4   ISQGTLIYIDFEPSKGSEIKKRRPAIVISRDEYNLASNLVIVCPITS-TDKDR-PYFVPI  61
+           I +G +   D  P +GSE    RP ++I  D  N  S  VIV  IT   +K + P  V I
+Sbjct  2   IRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEI  61
+
+Query  62  NNK--NLKSNSKVNTKQVYSLD  81
+             K   L  +S +  +Q+ +LD
+Sbjct  62  EKKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=120
+
+ Score = 35.0 bits (79),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 28/82 (34%), Positives = 40/82 (49%), Gaps = 4/82 (5%)
+
+Query  4   ISQGTLIYIDFEPSKGSEIKKRRPAIVISRDEYNLASNLVIVCPITS-TDKDR-PYFVPI  61
+           I +G +   D  P +GSE    RP ++I  D  N  S  VIV  IT   +K + P  V I
+Sbjct  2   IRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEI  61
+
+Query  62  NNK--NLKSNSKVNTKQVYSLD  81
+             K   L  +S +  +Q+ +LD
+Sbjct  62  EKKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot012809 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=120
+
+ Score = 35.0 bits (79),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 28/82 (34%), Positives = 40/82 (49%), Gaps = 4/82 (5%)
+
+Query  4   ISQGTLIYIDFEPSKGSEIKKRRPAIVISRDEYNLASNLVIVCPITS-TDKDR-PYFVPI  61
+           I +G +   D  P +GSE    RP ++I  D  N  S  VIV  IT   +K + P  V I
+Sbjct  2   IRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVEI  61
+
+Query  62  NNK--NLKSNSKVNTKQVYSLD  81
+             K   L  +S +  +Q+ +LD
+Sbjct  62  EKKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot005758 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=251
+
+ Score = 26.9 bits (58),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 13/47 (28%), Positives = 28/47 (60%), Gaps = 1/47 (2%)
+
+Query  6    QGTLIYIDFEPSKGSEIKKRRPAIVISRDEYNLASNLVIVCPITSTD  52
+            QG ++++DF  +   E      AIV+++++ N   ++V V P++S +
+Sbjct  63   QGEIVFVDFGINVNKEFSNSHFAIVMNKNDSN-TEDIVNVIPLSSKE  108
+
+
+> prot007522 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=251
+
+ Score = 26.9 bits (58),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 13/47 (28%), Positives = 28/47 (60%), Gaps = 1/47 (2%)
+
+Query  6    QGTLIYIDFEPSKGSEIKKRRPAIVISRDEYNLASNLVIVCPITSTD  52
+            QG ++++DF  +   E      AIV+++++ N   ++V V P++S +
+Sbjct  63   QGEIVFVDFGINVNKEFSNSHFAIVMNKNDSN-TEDIVNVIPLSSKE  108
+
+
+> prot019678 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=82
+
+ Score = 24.6 bits (52),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 17/55 (31%), Positives = 31/55 (56%), Gaps = 3/55 (5%)
+
+Query  46  CPITSTDKDRPYFVP-INNKNLKSNSKVNTKQVYSLDC-TERAGRNIQIIGRITN  98
+           C +   ++  P ++P I++  L + +K+ TK  YS+ C    +GRNI  +  I+N
+Sbjct  7   CLLILNNRQVPKYLPKIHHIQLSNCTKL-TKTAYSVACYVYLSGRNIATLSTISN  60
+
+
+> prot008990 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=535
+
+ Score = 25.8 bits (55),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 19/54 (35%), Positives = 26/54 (48%), Gaps = 5/54 (9%)
+
+Query  51   TDKDRPYFVPINNKNLKSNSKVNTKQVYS--LDCTERA---GRNIQIIGRITNK  99
+            TD D  ++    + NL   S V   +VYS  L    R    GR +Q+I  ITN+
+Sbjct  68   TDLDLGHYERFIDINLNKYSNVTAGKVYSHVLKKERRGDYLGRTVQVIPHITNE  121
+
+
+> prot021509 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=366
+
+ Score = 25.0 bits (53),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+
+Query  46  CPITSTDKDRPYFVPINN  63
+            P+ S DK++P FVP +N
+Sbjct  12  APLQSEDKNKPGFVPEHN  29
+
+
+> prot010100 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=234
+
+ Score = 24.6 bits (52),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 12/48 (25%), Positives = 24/48 (50%), Gaps = 1/48 (2%)
+
+Query  3    SISQGTLIYIDFEPSKGSEIKKRRPAIVISRDEYNLASNLVIVCPITS  50
+            S S+GT++Y+    + GSE       +++   + N     V + P++S
+Sbjct  61   SFSRGTVVYVKLGSNIGSEFSGNHFCVILDNKD-NKGKETVTIVPLSS  107
+
+
+> prot020803 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=366
+
+ Score = 25.0 bits (53),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+
+Query  46  CPITSTDKDRPYFVPINN  63
+            P+ S DK++P FVP +N
+Sbjct  12  APLQSEDKNKPGFVPEHN  29
+
+
+> prot021884 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=234
+
+ Score = 24.3 bits (51),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 12/48 (25%), Positives = 24/48 (50%), Gaps = 1/48 (2%)
+
+Query  3    SISQGTLIYIDFEPSKGSEIKKRRPAIVISRDEYNLASNLVIVCPITS  50
+            S S+GT++Y+    + GSE       +++   + N     V + P++S
+Sbjct  61   SYSRGTVVYVKLGSNIGSEFSGNHFCVILDNKD-NKGKETVTIVPLSS  107
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 128194638
+
+
+Query= PemK-Smic the toxin component of pemIK-Smic TA system
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  prot001607 [organism: Staphylococcus warneri] [strain: VCU121] ...  110     5e-33
+  prot005692 [organism: Staphylococcus warneri] [strain: VCU121] ...  87.4    4e-24
+  prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147]...  74.7    3e-19
+  prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [as...  51.2    5e-10
+  prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [as...  46.6    4e-08
+  prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147]...  46.6    4e-08
+  prot012809 [organism: Staphylococcus warneri] [strain: VCU121] ...  46.2    6e-08
+  prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [as...  38.9    4e-05
+  prot008397 [organism: Staphylococcus warneri] [strain: VCU121] ...  25.8    2.5  
+  prot019010 [organism: Staphylococcus aureus] [strain: VRS7] [as...  24.6    7.5  
+  prot018888 [organism: Staphylococcus aureus] [strain: UCIM6147]...  24.6    7.9  
+
+
+> prot001607 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=111
+
+ Score = 110 bits (274),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 50/105 (48%), Positives = 71/105 (68%), Gaps = 0/105 (0%)
+
+Query  2    VKQFDIITVDLNPSRGREKNKYRPCLIISNDLMNKNTPLSWIFPITNRPKKFPSDIILKT  61
+            +KQFDI+ +DL+P+ GREK K RPCL+I+N +  + T   WI PITNR K+F +DI +KT
+Sbjct  3    IKQFDILYIDLDPTLGREKQKIRPCLVINNQMSIEGTDFVWILPITNREKRFETDIEVKT  62
+
+Query  62   NNKNVEGIIDTVQIRALDLTVRNAKVIDTLHDSLKATVLKTIEAH  106
+                + G+IDT+Q+R+LDL  R     D L D LK  VL+ ++ +
+Sbjct  63   KKGLITGVIDTIQMRSLDLNARKYNYKDELQDRLKNDVLQAVQTY  107
+
+
+> prot005692 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=110
+
+ Score = 87.4 bits (215),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 37/90 (41%), Positives = 61/90 (68%), Gaps = 1/90 (1%)
+
+Query  1   MVKQFDIITVDLNPSRGREKNKYRPCLIISNDLMNKNTPLSWIFPITNR-PKKFPSDIIL  59
+           MV  +D+I +D NP  G EK  YRPCL+IS+   NK +  +W+ PIT R  +++P+D+++
+Sbjct  1   MVNLYDVIKLDFNPVIGTEKGNYRPCLVISDTEFNKVSGFAWVIPITKRYDERYPTDVLV  60
+
+Query  60  KTNNKNVEGIIDTVQIRALDLTVRNAKVID  89
+           KT N+++ G ID  QI+++D+  R  + +D
+Sbjct  61  KTKNQHINGFIDCTQIKSVDIHARPYRYLD  90
+
+
+> prot000500 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=105
+
+ Score = 74.7 bits (182),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 39/110 (35%), Positives = 65/110 (59%), Gaps = 5/110 (5%)
+
+Query  1    MVKQFDIITVDLNPSRGREKNKYRPCLIISNDLMNKNTPLSWIFPITNRPKKFPSDIILK  60
+            MVKQFD+I V+ NP   + +      +++SND +N N+P  W +P+  R + + +DI L 
+Sbjct  1    MVKQFDVIKVN-NPDEAKSE----LYVVVSNDYVNSNSPYIWTYPVFQRDRIYLTDIELV  55
+
+Query  61   TNNKNVEGIIDTVQIRALDLTVRNAKVIDTLHDSLKATVLKTIEAHTEMV  110
+            T   N  G+ID   I  +DLT +  KV+D L   ++  ++++I+AH E +
+Sbjct  56   TKRYNYYGVIDCGIIGHIDLTKKEIKVLDKLQPRIQNKLMESIQAHIETI  105
+
+
+> prot002310 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=113
+
+ Score = 51.2 bits (121),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 47/89 (53%), Gaps = 1/89 (1%)
+
+Query  3   KQFDIITVDLNPSRGREKNKYRPCLIISNDLMNKNTPLSWIFPITNRPKKFPSDIILKTN  62
+           K+ DI+ +D +PS G+E  K RP L++S    N+ T  + I PIT+  K  P+   L  +
+Sbjct  10  KKGDIVWIDFDPSAGKEIQKRRPGLVVSRYEFNRKTMFAVICPITSTIKNMPTRYTL-PD  68
+
+Query  63  NKNVEGIIDTVQIRALDLTVRNAKVIDTL  91
+                G +   Q+++LD T R    I+ L
+Sbjct  69  EMETHGQVVISQLKSLDFTERKLSQIEHL  97
+
+
+> prot006124 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 46.6 bits (109),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 27/83 (33%), Positives = 44/83 (53%), Gaps = 4/83 (5%)
+
+Query  1   MVKQFDIITVDLNPSRGREKNKYRPCLIISNDLMNKNTPLSWIFPITNR--PKKFPSDII  58
+           M+++ D+   DL+P +G E+   RP +II ND  NK +P   +  IT R    K P+ + 
+Sbjct  1   MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  59  LKTNNKNV--EGIIDTVQIRALD  79
+           ++     +  + +I   QIR LD
+Sbjct  61  IEKKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot006238 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=120
+
+ Score = 46.6 bits (109),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 27/83 (33%), Positives = 44/83 (53%), Gaps = 4/83 (5%)
+
+Query  1   MVKQFDIITVDLNPSRGREKNKYRPCLIISNDLMNKNTPLSWIFPITNR--PKKFPSDII  58
+           M+++ D+   DL+P +G E+   RP +II ND  NK +P   +  IT R    K P+ + 
+Sbjct  1   MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  59  LKTNNKNV--EGIIDTVQIRALD  79
+           ++     +  + +I   QIR LD
+Sbjct  61  IEKKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot012809 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=120
+
+ Score = 46.2 bits (108),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 27/83 (33%), Positives = 44/83 (53%), Gaps = 4/83 (5%)
+
+Query  1   MVKQFDIITVDLNPSRGREKNKYRPCLIISNDLMNKNTPLSWIFPITNR--PKKFPSDII  58
+           M+++ D+   DL+P +G E+   RP +II ND  NK +P   +  IT R    K P+ + 
+Sbjct  1   MIRRGDVYLADLSPVQGSEQGGVRPVVIIQNDTGNKYSPTVIVAAITGRINKAKIPTHVE  60
+
+Query  59  LKTNNKNV--EGIIDTVQIRALD  79
+           ++     +  + +I   QIR LD
+Sbjct  61  IEKKKYKLDKDSVILLEQIRTLD  83
+
+
+> prot002396 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=120
+
+ Score = 38.9 bits (89),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 24/99 (24%), Positives = 49/99 (49%), Gaps = 4/99 (4%)
+
+Query  1   MVK---QFDIITVDLNPSRGREKNKYRPCLIISNDLMNKNTPLSWIFPITNRPKKFPSDI  57
+           MVK   Q DI+ ++  P  G E+   RP +++S+D++   + +  + PI++  + +P  +
+Sbjct  1   MVKVPHQGDILLLNTAPRSGHEQTGKRPYIVLSHDIIADYSNVVIVAPISSTKRNYPLYV  60
+
+Query  58  -ILKTNNKNVEGIIDTVQIRALDLTVRNAKVIDTLHDSL  95
+            I  +      G +   Q+  +D   R    ++T H+ L
+Sbjct  61  SINPSYGMKTSGKVLLDQLTTIDYEARQCVFLETAHEKL  99
+
+
+> prot008397 [organism: Staphylococcus warneri] [strain: VCU121] 
+[assembly: GCA_000211215.2]
+Length=314
+
+ Score = 25.8 bits (55),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 19/60 (32%), Positives = 29/60 (48%), Gaps = 9/60 (15%)
+
+Query  41   SWIFPITNRPKKFPSDIILKTNNKNVEGIIDTVQIRALDLTVRNAKVIDTLHDSLKATVL  100
+            +W   +   P  F +DII+  + K+VEG+ID  +     +T        T H SL A V+
+Sbjct  212  AWKVLMERVPDGFNTDIIM-ADMKSVEGVIDIHEFHLWSIT--------TNHRSLSAHVV  262
+
+
+> prot019010 [organism: Staphylococcus aureus] [strain: VRS7] [assembly: 
+GCA_000262935.1]
+Length=496
+
+ Score = 24.6 bits (52),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 16/62 (26%), Positives = 29/62 (47%), Gaps = 11/62 (18%)
+
+Query  29   ISNDLMNKNTPLSWIFPITNRPKKF----PSDIILKTNNKNVEGIIDTVQIRALDLTVRN  84
+            I  ++  KN  +    P+   P +     P D+I K N K+++G       +ALD  V++
+Sbjct  138  IGAEMQKKNDQIMVTSPMKGSPAERAGIRPKDVITKVNGKSIKG-------KALDEVVKD  190
+
+Query  85   AK  86
+             +
+Sbjct  191  VR  192
+
+
+> prot018888 [organism: Staphylococcus aureus] [strain: UCIM6147] 
+[assembly: GCA_000543165.1]
+Length=496
+
+ Score = 24.6 bits (52),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 16/62 (26%), Positives = 29/62 (47%), Gaps = 11/62 (18%)
+
+Query  29   ISNDLMNKNTPLSWIFPITNRPKKF----PSDIILKTNNKNVEGIIDTVQIRALDLTVRN  84
+            I  ++  KN  +    P+   P +     P D+I K N K+++G       +ALD  V++
+Sbjct  138  IGAEMQKKNDQIMVTSPMKGSPAERAGIRPKDVITKVNGKSIKG-------KALDEVVKD  190
+
+Query  85   AK  86
+             +
+Sbjct  191  VR  192
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 128350602
+
+
+  Database: prot
+    Posted date:  May 22, 2023  8:39 AM
+  Number of letters in database: 5,138,043
+  Number of sequences in database:  63,914
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
